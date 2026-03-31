@@ -37,25 +37,15 @@
     {
         "op": "add",
         "side": "Server",
-        "file": "game:blocktypes/resource/peatbrick.json",
+        "file": "game:blocktypes/soil/peatbrick.json",
         "path": "/attributes/fancyfirepit",
         "value": {
             "model": "peat",
             "domain": "game",
             "fuelname": "peat",
             "burnoverlay": "",
-            "firepitTextures": {
-                "peat": {
-                    "base": "block/soil/peat"
-                }
-            },
             "burnTextures": {
-                "peat": {
-                    "base": "block/soil/peat",
-                    "overlays": [
-                        "block/coal/hot_peat"
-                    ]
-                }
+                "peat": [ "block/soil/peat" ]
             }
         }
     },

@@ -31,23 +31,14 @@ namespace FirepitsShowFuel.HarmonyPatches
         public string model = "firewood";
         public string domain = "game";
         public string fuelname = "firewood";
-        public Dictionary<string, CompositeTexture> firepitTextures;
-        public Dictionary<string, CompositeTexture> burnTextures;
-
-        public FancyFirepitAttributes(string newModel, string newFuelname)
+        public Dictionary<string, string[]> burnTextures = new();
+        //
+        public FancyFirepitAttributes(string newModel, string newFuelname, Dictionary<string, string[]> newBurnTextures)
         {
             model = newModel;
             fuelname = newFuelname;
-            //burnTextures = newBurnTextures;
+            burnTextures = newBurnTextures;
         }
-        //public Dictionary<string, string[]> burnTextures = new();
-
-        //public FancyFirepitAttributes(string newModel, string newFuelname, Dictionary<string, string[]> newBurnTextures)
-        //{
-        //    model = newModel;
-        //    fuelname = newFuelname;
-        //    burnTextures = newBurnTextures;
-        //}
 
         public override string ToString()
         {
@@ -56,12 +47,6 @@ namespace FirepitsShowFuel.HarmonyPatches
                    "fuelname:" + fuelname + "\n" +
                    "burnTextures:" + burnTextures.Count + "\n";
         }
-    }
-
-    public class tex
-    {
-        public string zbase = "firewood";
-        public string[] overlays;
     }
 
     [HarmonyPatch]
@@ -76,8 +61,6 @@ namespace FirepitsShowFuel.HarmonyPatches
                 __result = false; 
                 return false;
             }
-            
-
 
             ItemStack contentStack = __instance.inputStack == null ? __instance.outputStack : __instance.inputStack;
             MeshData contentmesh = Call_getContentMesh(__instance, contentStack, tesselator);
@@ -86,84 +69,12 @@ namespace FirepitsShowFuel.HarmonyPatches
                 mesher.AddMeshData(contentmesh);
             }
 
-
             string fuelState = __instance.fuelStack == null ? "" : __instance.fuelStack.Collectible.Code.Path;
             string fuelDomain = __instance.fuelStack == null ? "" : __instance.fuelStack.Collectible.Code.Domain;
             string burnState = __instance.Block.Variant["burnstate"];
 
-
-            JsonObject attr = __instance.fuelStack == null ? null : __instance.fuelStack.Collectible.Attributes;
-            //Console.WriteLine("[Firepit] burnState is1 [" + burnState + "]");
-
-            FancyFirepitAttributes fancyFirepitAttributes;
-            fancyFirepitAttributes = attr["fancyfirepit"].AsObject<FancyFirepitAttributes>();
-
-            //if (fuelState == "" && burnState == "lit")
-            //{
-            //    Console.WriteLine("[Firepit] cinderrr");
-
-            //    var d = new Dictionary<string, string[]> { { "cinder", new[] { "block/coal/cinder" } }, };
-            //    fancyFirepitAttributes = new FancyFirepitAttributes(
-            //        "cinder", 
-            //        "game"
-            //    );
-            //}
-            //else if(attr == null)
-            //{
-            //    var d = new Dictionary<string, string[]> { 
-            //        {
-            //            "birch", new[] { "block/wood/debarked/birch" } 
-            //        },
-            //        {
-            //            "walnut-h", new[] { "block/wood/bark/walnut-h" }
-            //        },
-            //    };
-            //    fancyFirepitAttributes = new FancyFirepitAttributes(
-            //        "firewood",
-            //        "firewood"
-            //        //d
-            //    );
-            //}
-            //else if (attr["fancyfirepit"].Exists)
-            //{
-            //    fancyFirepitAttributes = attr["fancyfirepit"].AsObject<FancyFirepitAttributes>();
-            //} else
-            //{
-            //    var d = new Dictionary<string, string[]> {
-            //        {
-            //            "birch", new[] { "block/wood/debarked/birch" }
-            //        },
-            //        {
-            //            "walnut-h", new[] { "block/wood/bark/walnut-h" }
-            //        },
-            //    };
-            //    fancyFirepitAttributes = new FancyFirepitAttributes(
-            //        "firewood",
-            //        "firewood"
-            //    );
-            //}
-            Console.WriteLine("[Firepit] attr [" + fancyFirepitAttributes.ToString() + "]");
-
-
-            //FancyFirepitAttributes fancyFirepitAttributes = attr["fancyfirepit"].Exists
-            //        ? attr["fancyfirepit"].AsObject<FancyFirepitAttributes>() : null;
-            //fancyFirepitAttributes.burntextures = attr["fancyfirepit"]["burntextures"].as
-            //string ss = ff.ToString();
-
-
-            //Console.WriteLine("[Firepit] attr S [" + ss + "]");
-
-            //if (attr["fancyfirepit"] != null)
-            //{
-
-            //} else
-            //{
-            //    Console.WriteLine("[Firepit] attr [ no attr ]");
-            //    Console.WriteLine("[Firepit] attr [" + attr.ToString() + "]");c
-
-            //}
-
-
+            FancyFirepitAttributes fancyFirepitAttributes = GetData(__instance.fuelStack, __instance.Block);
+            //Console.WriteLine("[Firepit] attr [" + fancyFirepitAttributes.ToString() + "]");
 
 
             string contentState = __instance.CurrentModel.ToString().ToLowerInvariant();
@@ -173,13 +84,42 @@ namespace FirepitsShowFuel.HarmonyPatches
                 __result = true;
                 return false;
             }
-            //Console.WriteLine("[Firepit] burnState is2 [" + burnState + "]");
-            //Console.WriteLine("[Firepit] burnState is1 [" + burnState + "]");
 
             mesher.AddMeshData(getOrCreateMesh_n(__instance, fancyFirepitAttributes, burnState, contentState, fuelState, fuelDomain));
 
             __result = true;
             return false;
+        }
+
+        static FancyFirepitAttributes GetData(ItemStack fuelItemStack, Block firepit)
+        {
+            string fuelState = fuelItemStack == null ? "" : fuelItemStack.Collectible.Code.Path;
+            string fuelDomain = fuelItemStack == null ? "" : fuelItemStack.Collectible.Code.Domain;
+            string burnState = firepit.Variant["burnstate"];
+
+            JsonObject attr = fuelItemStack?.Collectible.Attributes;
+
+            if (fuelState == "" && burnState == "lit")
+            {
+                return new FancyFirepitAttributes(
+                    "cinder",
+                    "game",
+                    new Dictionary<string, string[]> { { "cinder", new[] { "block/coal/cinder" } }, }
+                );
+            }
+            if (attr != null && attr["fancyfirepit"].Exists)
+            {
+                return attr["fancyfirepit"].AsObject<FancyFirepitAttributes>();
+            }
+
+            return new FancyFirepitAttributes(
+                "firewood",
+                "firewood",
+                new Dictionary<string, string[]> {
+                    { "birch", new[] { "block/wood/debarked/birch" } },
+                    { "walnut-h", new[] { "block/wood/bark/walnut-h" } },
+                }
+            );
         }
 
         static string GetMeshAndTextureKeys(string fuelState, string burnState, string fuelDomain, out Dictionary<string, string[]> replacementTextures)
@@ -408,19 +348,13 @@ namespace FirepitsShowFuel.HarmonyPatches
         {
             Dictionary<string, MeshData> Meshes = ObjectCacheUtil.GetOrCreate(__instance.Api, "firepit-meshes", () => new Dictionary<string, MeshData>());
 
-            //string fuelname = "firewood";
-
             Dictionary<string, string[]> replacementTextures = new Dictionary<string, string[]>();
-            //Dictionary<string, string> replacementKeys = new Dictionary<string, string>();
 
-            //string modelType = GetMeshAndTextureKeys(fuelState, burnstate, fuelDomain, out replacementTextures);
-
-            //foreach(var a in fancyFirepitAttributes.burnTextures)
-            //{
-            //    Console.WriteLine("[Firepit]  [" + a.Key + ":" + a.Value[0] + "]");
-
-            //    replacementTextures.Add(a.Key, a.Value.Base);
-            //}
+            foreach(var a in fancyFirepitAttributes.burnTextures)
+            {
+                //Console.WriteLine("[Firepit]  [" + a.Key + ":" + a.Value[0] + "]");
+                replacementTextures.Add(a.Key, a.Value);
+            }
 
             string key = burnstate + "-" + contentstate;
 
@@ -446,75 +380,25 @@ namespace FirepitsShowFuel.HarmonyPatches
                 Block b = block.Clone();
 
 
-                //foreach (var k in b.Textures.Keys)
-                //{
-                //    foreach (string texturekey in replacementTextures.Keys)
-                //    {
-                //        if (k == texturekey)
-                //        {
-                //            AssetLocation a = new AssetLocation(replacementTextures[texturekey][0]);
-
-                //            //AssetLocation abb = new AssetLocation(replacementTextures[texturekey]);
-                //            //AssetLocation oa = new AssetLocation("block/coal/bomb");
-                //            //BlendedOverlayTexture blen = new BlendedOverlayTexture();
-                //            //blen.Base = oa;
-
-                //            //Console.WriteLine("[Firepit] ["+ a.Domain + "]:[" + a.Path + "]");
-
-                //            b.Textures[k].Base.Path = a.Path;
-                //            b.Textures[k].Base.Domain = a.Domain;
-
-
-                //            if (replacementTextures[texturekey].Length > 1 && burnstate == "lit")
-                //            {
-                //                AssetLocation c = new AssetLocation(replacementTextures[texturekey][1]);
-                //                b.Textures[k].BlendedOverlays[0].Base = c.Path;
-                //            }
-
-
-                //            //b.Textures[k].BlendedOverlays = [blen];
-                //            //b.Textures[k].RuntimeBake(cAPI, ba);
-                //        }
-                //    }
-                //}
-
                 foreach (var k in b.Textures.Keys)
                 {
-                    foreach (var texturekey in fancyFirepitAttributes.burnTextures)
+                    foreach (string texturekey in replacementTextures.Keys)
                     {
-                        if (k == texturekey.Key)
+                        if (k == texturekey)
                         {
-                            //AssetLocation a = new AssetLocation(replacementTextures[texturekey][0]);
+                            AssetLocation a = new AssetLocation(replacementTextures[texturekey][0]);
+                            
+                            b.Textures[k].Base.Path = a.Path;
+                            b.Textures[k].Base.Domain = a.Domain;
 
-                            //AssetLocation abb = new AssetLocation(replacementTextures[texturekey]);
-                            //AssetLocation oa = new AssetLocation("block/coal/bomb");
-                            //BlendedOverlayTexture blen = new BlendedOverlayTexture();
-                            //blen.Base = oa;
-
-                            //Console.WriteLine("[Firepit] ["+ a.Domain + "]:[" + a.Path + "]");
-
-                            b.Textures[k].Base.Path = texturekey.Value.Base.Path;
-                            b.Textures[k].Base.Domain = texturekey.Value.Base.Domain;
-
-
-
-                            //AssetLocation c = new AssetLocation(replacementTextures[texturekey][1]);
-                            b.Textures[k].BlendedOverlays[0].Base = texturekey.Value.BlendedOverlays[0].Base.Path;
-
-                            //if (replacementTextures[texturekey.Key].Length > 1 && burnstate == "lit")
-                            //{
-                            //    AssetLocation c = new AssetLocation(replacementTextures[texturekey][1]);
-                            //    b.Textures[k].BlendedOverlays[0].Base = c.Path;
-                            //}
-
-
-                            //b.Textures[k].BlendedOverlays = [blen];
-                            //b.Textures[k].RuntimeBake(cAPI, ba);
+                            if (replacementTextures[texturekey].Length > 1 && burnstate == "lit")
+                            {
+                                AssetLocation c = new AssetLocation(replacementTextures[texturekey][1]);
+                                b.Textures[k].BlendedOverlays[0].Base = c.Path;
+                            }
                         }
                     }
                 }
-
-
 
                 ShapeTextureSource tex = new ShapeTextureSource(
                     ((ICoreClientAPI)__instance.Api),

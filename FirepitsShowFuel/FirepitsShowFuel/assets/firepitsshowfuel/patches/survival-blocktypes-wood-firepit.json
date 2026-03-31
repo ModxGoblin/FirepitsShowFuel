@@ -110,14 +110,11 @@
                     "base": "block/coal/cinder"
                 },
                 "peat": {
-                    "base": "block/coal/cinder"
+                    "base": "block/soil/peat",
+                    "overlays": [
+                        "block/coal/hot_peat"
+                    ]
                 },
-                //"peat": {
-                //    "base": "block/soil/peat",
-                //    "overlays": [
-                //        "block/coal/hot_peat"
-                //    ]
-                //},
 
 
 
@@ -361,9 +358,9 @@
                 "cinder": {
                     "base": "block/coal/cinder"
                 },
-                //"peat": {
-                //    "base": "block/soil/peat"
-                //},
+                "peat": {
+                    "base": "block/soil/peat"
+                },
                 "brick": {
                     "base": "block/coal/cinder"
                 },

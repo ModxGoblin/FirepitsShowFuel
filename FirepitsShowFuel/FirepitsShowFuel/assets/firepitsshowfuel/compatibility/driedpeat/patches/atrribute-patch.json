@@ -1,62 +1,70 @@
 [
-    {
-        "op": "add",
-        "side": "Server",
-        "file": "driedpeat:itemtypes/driedpeat.json",
-        "path": "/attributes/fancyfirepit",
-        "value": {
-            "model": "peat",
-            "domain": "driedpeat",
-            "fuelname": "driedpeat",
-            "burnoverlay": "",
-            "burnTextures": {
-                "peat": [ "block/soil/peat" ]
-            }
-        }
-    },
-    {
-        "op": "add",
-        "side": "Server",
-        "file": "driedpeat:itemtypes/refinedpeat.json",
-        "path": "/attributes/fancyfirepit",
-        "value": {
-            "model": "peat",
-            "domain": "driedpeat",
-            "fuelname": "refinedpeat",
-            "burnoverlay": "",
-            "burnTextures": {
-                "peat": [ "block/soil/peat" ]
-            }
-        }
-    },
-    {
-        "op": "add",
-        "side": "Server",
-        "file": "driedpeat:itemtypes/dryablepeatbrick.json",
-        "path": "/attributes/fancyfirepit",
-        "value": {
-            "model": "peat",
-            "domain": "driedpeat",
-            "fuelname": "dryablepeatbrick",
-            "burnoverlay": "",
-            "burnTextures": {
-                "peat": [ "block/soil/peat" ]
-            }
-        }
-    },
-    {
-        "op": "add",
-        "side": "Server",
-        "file": "driedpeat:itemtypes/dryablerefinedpeatbrick.json",
-        "path": "/attributes/fancyfirepit",
-        "value": {
-            "model": "peat",
-            "domain": "driedpeat",
-            "fuelname": "dryablerefinedpeatbrick",
-            "burnoverlay": "",
-            "burnTextures": {
-                "peat": [ "block/soil/peat" ]
-            }
-        }
-    }
+	{
+		"op": "add",
+		"side": "Server",
+		"file": "driedpeat:itemtypes/driedpeat.json",
+		"path": "/attributes",
+		"value": {
+			"fancyfirepit": {
+				"model": "peat",
+				"domain": "driedpeat",
+				"fuelname": "driedpeat",
+				"burnoverlay": "",
+				"burnTextures": {
+					"peat": [ "block/soil/peat" ]
+				}
+			}
+		}
+	},
+	{
+		"op": "add",
+		"side": "Server",
+		"file": "driedpeat:itemtypes/refinedpeat.json",
+		"path": "/attributes",
+		"value": {
+			"fancyfirepit": {
+				"model": "peat",
+				"domain": "driedpeat",
+				"fuelname": "refinedpeat",
+				"burnoverlay": "",
+				"burnTextures": {
+					"peat": [ "block/soil/peat" ]
+				}
+			}
+		}
+	},
+	{
+		"op": "add",
+		"side": "Server",
+		"file": "driedpeat:itemtypes/dryablepeatbrick.json",
+		"path": "/attributes",
+		"value": {
+			"fancyfirepit": {
+				"model": "peat",
+				"domain": "driedpeat",
+				"fuelname": "dryablepeatbrick",
+				"burnoverlay": "",
+				"burnTextures": {
+					"peat": [ "block/soil/peat" ]
+				}
+			}
+		}
+	},
+	{
+		"op": "add",
+		"side": "Server",
+		"file": "driedpeat:itemtypes/dryablerefinedpeatbrick.json",
+		"path": "/attributes",
+		"value": {
+			"fancyfirepit": {
+				"model": "peat",
+				"domain": "driedpeat",
+				"fuelname": "dryablerefinedpeatbrick",
+				"burnoverlay": "",
+				"burnTextures": {
+					"peat": [ "block/soil/peat" ]
+				}
+			}
+		}
+	}
 ]
