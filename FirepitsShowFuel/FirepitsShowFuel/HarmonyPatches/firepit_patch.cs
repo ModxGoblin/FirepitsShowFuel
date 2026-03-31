@@ -38,6 +38,7 @@ namespace FirepitsShowFuel.HarmonyPatches
             model = newModel;
             fuelname = newFuelname;
             burnTextures = newBurnTextures;
+            
         }
 
         public override string ToString()
