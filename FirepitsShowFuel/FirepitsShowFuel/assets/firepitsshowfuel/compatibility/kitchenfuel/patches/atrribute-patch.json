@@ -1,0 +1,129 @@
+[
+	{
+		"op": "add",
+		"path": "/attributesByType",
+		"value": {
+			"*-sawdust": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-coal",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "game:block/charcoal-brick1", "block/coal/hot_briquette_coal" ]
+					}
+				}
+			},
+			"*-peat": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-peat",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "game:block/peat-brick1", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			},
+			"*-sawdust-soaked": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-sawdust",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "game:block/soil/flooring/strawbedding5", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			},
+			"*-peat-soaked": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-biomass",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "game:block/hay/normal-top", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			},
+			"*-charcoal": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-general",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "game:block/stone/dirtygravel/wetdark/plain1", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			}
+		},
+		"file": "kitchenfuel:itemtypes/briquette.json",
+		"side": "Server"
+	},
+
+	{
+		"op": "add",
+		"path": "/attributesByType",
+		"value": {
+			"*-sawdust": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-coal",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "kitchenfuel:item/wet-charcoal", "block/coal/hot_briquette_coal" ]
+					}
+				}
+			},
+			"*-peat": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-peat",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "kitchenfuel:item/wet-peat", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			},
+			"*-sawdust-soaked": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-sawdust",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "kitchenfuel:item/wet-sawdust", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			},
+			"*-peat-soaked": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-biomass",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "kitchenfuel:item/wet-grass", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			},
+			"*-charcoal": {
+				"fancyfirepit": {
+					"model": "briquette",
+					"domain": "game",
+					"fuelname": "briquette-general",
+					"burnoverlay": "",
+					"burnTextures": {
+						"brick": [ "game:block/stone/dirtygravel/wetverydark/plain1", "block/coal/hot_briquette_wood" ]
+					}
+				}
+			}
+		},
+		"file": "kitchenfuel:itemtypes/wet-briquette.json",
+		"side": "Server"
+	}
+]

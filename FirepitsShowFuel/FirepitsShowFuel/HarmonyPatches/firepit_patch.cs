@@ -74,7 +74,7 @@ namespace FirepitsShowFuel.HarmonyPatches
             string burnState = __instance.Block.Variant["burnstate"];
 
             FancyFirepitAttributes fancyFirepitAttributes = GetData(__instance.fuelStack, __instance.Block);
-            //Console.WriteLine("[Firepit] attr [" + fancyFirepitAttributes.ToString() + "]");
+            //Console.WriteLine("[Firepit] attr [\n" + fancyFirepitAttributes.ToString() + "\n]");
 
 
             string contentState = __instance.CurrentModel.ToString().ToLowerInvariant();
@@ -98,6 +98,8 @@ namespace FirepitsShowFuel.HarmonyPatches
             string burnState = firepit.Variant["burnstate"];
 
             JsonObject attr = fuelItemStack?.Collectible.Attributes;
+            //Console.WriteLine("[Firepit]-----------------------------------");
+            //Console.WriteLine("[Firepit] A [\n" + attr.ToString() + "\n]");
 
             if (fuelState == "" && burnState == "lit")
             {

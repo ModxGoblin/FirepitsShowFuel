@@ -1,0 +1,89 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/fatfirewood",
+        "value": {
+            "base": "fuel:block/wood/firewood/fatfirewoodside"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-sawdust-ds",
+        "value": {
+            "base": "fuel:item/rottenpeat"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/fatfirewoodasas",
+        "value": {
+            "base": "fuel:block/hay/bundle2"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/fatfirewood",
+        "value": {
+            "base": "fuel:block/wood/firewood/fatfirewoodside",
+            "overlays": [ "game:block/coal/hot_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-sawdust-ds",
+        "value": {
+            "base": "fuel:item/rottenpeat",
+            "overlays": [ "block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/fatfirewoodasas",
+        "value": {
+            "base": "fuel:block/hay/bundle2",
+            "overlays": [ "game:block/coal/hot_foliage" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/superfuel",
+        "value": {
+            "base": "fuel:item/fuel"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/superfuel",
+        "value": {
+            "base": "fuel:item/fuel",
+            "overlays": [ "game:block/coal/hot_coal" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+
+]

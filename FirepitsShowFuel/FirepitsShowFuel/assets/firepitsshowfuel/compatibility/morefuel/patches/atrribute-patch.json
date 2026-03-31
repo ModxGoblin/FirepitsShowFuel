@@ -1,0 +1,84 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fuel:itemtypes/fatfirewood.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "fatfirewood",
+            "burnoverlay": "",
+            "burnTextures": {
+                "birch": [ "fuel:block/wood/firewood/fatfirewoodside" ],
+                "walnut-h": [ "fuel:block/wood/firewood/fatfirewoodside" ]
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fuel:itemtypes/rottenpeat.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "briquette",
+            "domain": "game",
+            "fuelname": "rottenpeat",
+            "burnoverlay": "",
+            "burnTextures": {
+                "brick": [ "fuel:item/rottenpeat", "block/coal/hot_briquette_wood" ]
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fuel:itemtypes/pressedrot.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "peat",
+            "domain": "game",
+            "fuelname": "pressedrot",
+            "burnoverlay": "",
+            "burnTextures": {
+                "peat": [ "item/resource/rot/rot-solids" ]
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fuel:itemtypes/soakedtrach.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "foliage",
+            "domain": "game",
+            "fuelname": "soakedthatch",
+            "burnoverlay": "",
+            "burnTextures": {
+                "foliage": [ "fuel:block/hay/bundle2" ]
+
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fuel:itemtypes/fuel.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "coal",
+            "domain": "game",
+            "fuelname": "superfuel",
+            "burnoverlay": "",
+            "burnTextures": {
+                "coal": [ "fuel:item/fuel" ]
+
+            }
+        }
+    }
+]

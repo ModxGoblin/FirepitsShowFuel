@@ -1,0 +1,181 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-coal",
+        "value": { "base": "game:block/charcoal-brick1" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-coal",
+        "value": {
+            "base": "game:block/charcoal-brick1",
+            "overlays": [ "game:block/coal/hot_briquette_coal" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-coal-wet",
+        "value": { "base": "kitchenfuel:item/wet-charcoal" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-coal-wet",
+        "value": {
+            "base": "kitchenfuel:item/wet-charcoal",
+            "overlays": [ "game:block/coal/hot_briquette_coal" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-peat",
+        "value": { "base": "game:block/peat-brick1" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-peat",
+        "value": {
+            "base": "game:block/peat-brick1",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-peat-wet",
+        "value": { "base": "kitchenfuel:item/wet-peat" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-peat-wet",
+        "value": {
+            "base": "kitchenfuel:item/wet-peat",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-sawdust",
+        "value": { "base": "game:block/soil/flooring/strawbedding5" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-sawdust",
+        "value": {
+            "base": "game:block/soil/flooring/strawbedding5",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-sawdust-wet",
+        "value": { "base": "kitchenfuel:item/wet-sawdust" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-sawdust-wet",
+        "value": {
+            "base": "kitchenfuel:item/wet-sawdust",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-general",
+        "value": { "base": "game:block/stone/dirtygravel/wetdark/plain1" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-general",
+        "value": {
+            "base": "game:block/stone/dirtygravel/wetdark/plain1",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-general-wet",
+        "value": { "base": "game:block/stone/dirtygravel/wetverydark/plain1" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-general-wet",
+        "value": {
+            "base": "game:block/stone/dirtygravel/wetverydark/plain1",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-biomass",
+        "value": { "base": "game:block/hay/normal-top" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-biomass",
+        "value": {
+            "base": "game:block/hay/normal-top",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/brick-kf-biomass-wet",
+        "value": { "base": "kitchenfuel:item/wet-grass" },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/brick-kf-biomass-wet",
+        "value": {
+            "base": "kitchenfuel:item/wet-grass",
+            "overlays": [ "game:block/coal/hot_briquette_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+
+]
