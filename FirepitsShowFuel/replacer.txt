@@ -1,0 +1,171 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/wood/firepit.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+        "*-lit": {
+            "ceramic": {
+                "base": "block/clay/ceramic"
+            },
+            "tinder": {
+                "base": "block/hay/normal-side"
+            },
+            "log": {
+                "base": "block/wood/firepit/log",
+                "overlays": [
+                    "block/coal/heated_wood"
+                ]
+            },
+            "birch": {
+                "base": "block/wood/debarked/birch",
+                "overlays": [
+                    "block/coal/heated_wood"
+                ]
+            },
+            "agedfirewood": {
+                "base": "block/wood/firewood/aged/bark",
+                "overlays": [
+                    "block/coal/heated_wood"
+                ]
+            },
+            "charred": {
+                "base": "block/wood/charred"
+            },
+            "ashes": {
+                "base": "block/wood/firepit/ground"
+            },
+            "aged": {
+                "base": "block/wood/debarked/aged"
+            },
+            "fire": {
+                "base": "block/wood/firepit/fire"
+            },
+            "walnut-h": {
+                "base": "block/wood/bark/walnut-h"
+            },
+            "ember": {
+                "base": "block/coal/ember"
+            },
+            "coal": {
+                "base": "block/coal/charcoal",
+                "overlays": [
+                    "block/coal/heated"
+                ]
+            },
+            "bituminous": {
+                "base": "block/coal/bituminous",
+                "overlays": [
+                    "block/coal/heated"
+                ]
+            },
+            "charcoal": {
+                "base": "block/coal/charcoal",
+                "overlays": [
+                    "block/coal/heated"
+                ]
+            },
+            "lignite": {
+                "base": "block/coal/lignite",
+                "overlays": [
+                    "block/coal/heated"
+                ]
+            },
+            "anthracite": {
+                "base": "block/coal/anthracite",
+                "overlays": [
+                    "block/coal/heated"
+                ]
+            },
+            "coke": {
+                "base": "block/coal/anthracite",
+                "overlays": [
+                    "block/coal/heated"
+                ]
+            },
+            "cinder": {
+                "base": "block/coal/cinder"
+            },
+            "peat": {
+                "base": "block/soil/peat",
+                "overlays": [
+                    "block/coal/heated_wood"
+                ]
+            }
+        },
+        "*": {
+            "ceramic": {
+                "base": "block/clay/ceramic"
+            },
+            "tinder": {
+                "base": "block/hay/normal-side"
+            },
+            "log": {
+                "base": "block/wood/firepit/log"
+            },
+            "birch": {
+                "base": "block/wood/debarked/birch"
+            },
+            "charred": {
+                "base": "block/wood/charred"
+            },
+            "ashes": {
+                "base": "block/wood/firepit/ground"
+            },
+            "aged": {
+                "base": "block/wood/debarked/aged"
+            },
+            "fire": {
+                "base": "block/wood/firepit/fire"
+            },
+            "walnut-h": {
+                "base": "block/wood/bark/walnut-h"
+            },
+            "ember": {
+                "base": "block/coal/ember"
+            },
+            "coal": {
+                "base": "block/coal/charcoal"
+            },
+            "agedfirewood": {
+                "base": "block/wood/firewood/aged/bark"
+            },
+            "bituminous": {
+                "base": "block/coal/bituminous"
+            },
+            "charcoal": {
+                "base": "block/coal/charcoal"
+            },
+            "lignite": {
+                "base": "block/coal/lignite"
+            },
+            "anthracite": {
+                "base": "block/coal/anthracite"
+            },
+            "coke": {
+                "base": "block/coal/anthracite"
+            },
+            "cinder": {
+                "base": "block/coal/cinder"
+            },
+            "peat": {
+                "base": "block/soil/peat"
+            }
+        }
+    },
+    "file": "game:blocktypes/wood/firepit.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/creativeinventory/general/0",
+    "value": "*",
+    "file": "game:blocktypes/wood/firepit.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "op": "addmerge", "path": "/texturesByType/*",
+        "value": { "peatbrick": { "base": "driedpeat:block/soil/peat" } },
+        "file": "game:blocktypes/wood/firepit.json", "side": "Server"
+    },
+
+    {
+        "op": "addmerge", "path": "/texturesByType/*-lit",
+        "value": {
+            "peatbrick": {
+                "base": "driedpeat:block/soil/peat",
+                "overlays": [ "game:block/coal/hot_peat" ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json", "side": "Server"
+    }
+]

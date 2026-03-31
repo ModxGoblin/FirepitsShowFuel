@@ -1,0 +1,607 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"birch": "block/wood/debarked/birch",
+		"ashes": "block/wood/firepit/ground",
+		"walnut-h": "block/wood/bark/walnut-h",
+		"foliage": "block/hay/bundle"
+	},
+	"elements": [
+		{
+			"name": "Ashes",
+			"from": [ 1.0, 1.0, 0.01 ], 
+			"to": [ 15.0, 15.0, 0.06 ], 
+			"renderPass": 2,
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": -90.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 14.0, 14.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"south": { "texture": "#ashes", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Ember",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 1.0, 9.0 ], 
+			"faces": {
+				"north": { "texture": "#ashes", "uv": [ 6.0, 5.0, 8.0, 6.0 ] },
+				"east": { "texture": "#ashes", "uv": [ 7.0, 7.0, 9.0, 8.0 ] },
+				"south": { "texture": "#ashes", "uv": [ 7.0, 4.0, 9.0, 5.0 ] },
+				"west": { "texture": "#ashes", "uv": [ 6.0, 4.0, 8.0, 5.0 ] },
+				"up": { "texture": "#ashes", "uv": [ 7.0, 5.0, 9.0, 7.0 ] },
+				"down": { "texture": "#ashes", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Ember",
+			"from": [ 7.0, 0.0, 6.0 ], 
+			"to": [ 8.0, 1.0, 7.0 ], 
+			"faces": {
+				"north": { "texture": "#ashes", "uv": [ 7.0, 4.0, 8.0, 5.0 ] },
+				"east": { "texture": "#ashes", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+				"south": { "texture": "#ashes", "uv": [ 8.0, 6.0, 9.0, 7.0 ] },
+				"west": { "texture": "#ashes", "uv": [ 7.0, 5.0, 8.0, 6.0 ] },
+				"up": { "texture": "#ashes", "uv": [ 7.0, 5.0, 8.0, 6.0 ] },
+				"down": { "texture": "#ashes", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Ember",
+			"from": [ 9.0, 0.0, 8.0 ], 
+			"to": [ 10.0, 1.0, 9.0 ], 
+			"faces": {
+				"north": { "texture": "#ashes", "uv": [ 8.0, 4.0, 9.0, 5.0 ] },
+				"east": { "texture": "#ashes", "uv": [ 7.0, 5.0, 8.0, 6.0 ] },
+				"south": { "texture": "#ashes", "uv": [ 8.0, 4.0, 9.0, 5.0 ] },
+				"west": { "texture": "#ashes", "uv": [ 6.0, 5.0, 7.0, 6.0 ] },
+				"up": { "texture": "#ashes", "uv": [ 6.0, 6.0, 7.0, 7.0 ] },
+				"down": { "texture": "#ashes", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Ember",
+			"from": [ 7.0, 0.0, 9.0 ], 
+			"to": [ 8.0, 1.0, 10.0 ], 
+			"faces": {
+				"north": { "texture": "#ashes", "uv": [ 7.0, 4.0, 8.0, 5.0 ] },
+				"east": { "texture": "#ashes", "uv": [ 7.0, 4.0, 8.0, 5.0 ] },
+				"south": { "texture": "#ashes", "uv": [ 8.0, 5.0, 9.0, 6.0 ] },
+				"west": { "texture": "#ashes", "uv": [ 8.0, 4.0, 9.0, 5.0 ] },
+				"up": { "texture": "#ashes", "uv": [ 8.0, 5.0, 9.0, 6.0 ] },
+				"down": { "texture": "#ashes", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Coal-1",
+			"from": [ 9.0, 1.0, 7.0 ],
+			"to": [ 12.0, 6.0, 10.0 ],
+			"rotationOrigin": [ 11.0, 1.5, 7.0 ],
+			"rotationX": -90.0,
+			"rotationY": -22.5,
+			"rotationZ": 45.0,
+			"faces": {
+				"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+				"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+				"west": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ] }
+			},
+			"children": [
+				{
+					"name": "Coal-2",
+					"from": [ 0.0, -0.5, 3.0 ],
+					"to": [ 3.0, 4.5, 6.0 ],
+					"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+					"rotationX": 180.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "Coal-3",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 4.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-4",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": -22.5,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-6",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-7",
+					"from": [ -0.05, 0.0, 0.05 ],
+					"to": [ 2.85, 2.0, 2.95 ],
+					"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 0.0,
+					"rotationZ": 0.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"east": { "texture": "#foliage", "uv": [ 7.5, 6.5, 10.0, 8.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.5, 5.5, 10.0, 7.5 ] },
+						"west": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"up": { "texture": "#foliage", "uv": [ 5.5, 2.0, 8.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#foliage", "uv": [ 8.0, 2.0, 10.5, 4.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Coal-8",
+			"from": [ 5.6, -0.1, 10.0 ],
+			"to": [ 8.6, 4.9, 13.0 ],
+			"rotationOrigin": [ 7.6, 0.4, 10.0 ],
+			"rotationX": -67.5,
+			"rotationY": 22.5,
+			"rotationZ": 135.0,
+			"faces": {
+				"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+				"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+				"west": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ] }
+			},
+			"children": [
+				{
+					"name": "Coal-9",
+					"from": [ 0.0, -0.5, 3.0 ],
+					"to": [ 3.0, 4.5, 6.0 ],
+					"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+					"rotationX": 180.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "Coal-10",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 4.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-11",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-12",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": -22.5,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-13",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-14",
+					"from": [ -0.05, 0.0, 0.05 ],
+					"to": [ 2.85, 2.0, 2.95 ],
+					"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 0.0,
+					"rotationZ": 0.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"east": { "texture": "#foliage", "uv": [ 7.5, 6.5, 10.0, 8.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.5, 5.5, 10.0, 7.5 ] },
+						"west": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"up": { "texture": "#foliage", "uv": [ 5.5, 2.0, 8.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#foliage", "uv": [ 8.0, 2.0, 10.5, 4.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Coal-15",
+			"from": [ 4.0, -0.4, 7.0 ],
+			"to": [ 7.0, 4.6, 10.0 ],
+			"rotationOrigin": [ 6.0, 0.1, 7.0 ],
+			"rotationX": -90.0,
+			"rotationZ": -22.5,
+			"faces": {
+				"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+				"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+				"west": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ] }
+			},
+			"children": [
+				{
+					"name": "Coal-16",
+					"from": [ 0.0, -0.5, 3.0 ],
+					"to": [ 3.0, 4.5, 6.0 ],
+					"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+					"rotationX": 180.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "Coal-17",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 4.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-18",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-19",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": -22.5,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-20",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-21",
+					"from": [ -0.05, 0.0, 0.05 ],
+					"to": [ 2.85, 2.0, 2.95 ],
+					"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 0.0,
+					"rotationZ": 0.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"east": { "texture": "#foliage", "uv": [ 7.5, 6.5, 10.0, 8.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.5, 5.5, 10.0, 7.5 ] },
+						"west": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"up": { "texture": "#foliage", "uv": [ 5.5, 2.0, 8.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#foliage", "uv": [ 8.0, 2.0, 10.5, 4.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Coal-22",
+			"from": [ 6.0, 2.6, 8.0 ],
+			"to": [ 9.0, 7.6, 11.0 ],
+			"rotationOrigin": [ 8.0, 3.1, 8.0 ],
+			"rotationX": -90.0,
+			"rotationZ": 22.5,
+			"faces": {
+				"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+				"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+				"west": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ] }
+			},
+			"children": [
+				{
+					"name": "Coal-23",
+					"from": [ 0.0, -0.5, 3.0 ],
+					"to": [ 3.0, 4.5, 6.0 ],
+					"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+					"rotationX": 180.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "Coal-24",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 4.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-25",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-26",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": -22.5,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-27",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-28",
+					"from": [ -0.05, 0.0, 0.05 ],
+					"to": [ 2.85, 2.0, 2.95 ],
+					"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 0.0,
+					"rotationZ": 0.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"east": { "texture": "#foliage", "uv": [ 7.5, 6.5, 10.0, 8.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.5, 5.5, 10.0, 7.5 ] },
+						"west": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"up": { "texture": "#foliage", "uv": [ 5.5, 2.0, 8.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#foliage", "uv": [ 8.0, 2.0, 10.5, 4.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Coal-29",
+			"from": [ 7.0, -0.7, 3.0 ],
+			"to": [ 10.0, 4.3, 6.0 ],
+			"rotationOrigin": [ 9.0, -0.2, 3.0 ],
+			"rotationX": -90.0,
+			"rotationZ": 90.0,
+			"faces": {
+				"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+				"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+				"west": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ] }
+			},
+			"children": [
+				{
+					"name": "Coal-30",
+					"from": [ 0.0, -0.5, 3.0 ],
+					"to": [ 3.0, 4.5, 6.0 ],
+					"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+					"rotationX": 180.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "Coal-31",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 4.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-32",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-33",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 3.0, 5.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 0.5, 0.0 ],
+					"rotationX": -22.5,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] },
+						"east": { "texture": "#foliage", "uv": [ 8.0, 0.0, 11.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] },
+						"west": { "texture": "#foliage", "uv": [ 7.5, 0.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "Coal-34",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 4.5, 6.0 ],
+							"rotationOrigin": [ 2.0, -0.3, 3.0 ],
+							"rotationX": 180.0,
+							"faces": {
+								"north": { "texture": "#foliage", "uv": [ 6.5, 0.0, 9.5, 5.0 ] },
+								"east": { "texture": "#foliage", "uv": [ 6.0, 0.0, 9.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#foliage", "uv": [ 5.5, 1.0, 8.5, 6.0 ] },
+								"west": { "texture": "#foliage", "uv": [ 7.0, 0.0, 10.0, 5.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Coal-35",
+					"from": [ -0.05, 0.0, 0.05 ],
+					"to": [ 2.85, 2.0, 2.95 ],
+					"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 0.0,
+					"rotationZ": 0.0,
+					"faces": {
+						"north": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"east": { "texture": "#foliage", "uv": [ 7.5, 6.5, 10.0, 8.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#foliage", "uv": [ 7.5, 5.5, 10.0, 7.5 ] },
+						"west": { "texture": "#foliage", "uv": [ 8.0, 2.5, 10.5, 4.5 ] },
+						"up": { "texture": "#foliage", "uv": [ 5.5, 2.0, 8.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#foliage", "uv": [ 8.0, 2.0, 10.5, 4.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

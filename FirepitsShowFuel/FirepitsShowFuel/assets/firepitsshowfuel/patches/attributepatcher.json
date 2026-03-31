@@ -1,0 +1,210 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/firewood.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "firewood",
+            "burnoverlay": "",
+            "burnTextures": {
+                "birch": [ "block/wood/debarked/birch" ],
+                "walnut-h": [ "block/wood/bark/walnut-h" ]
+
+            }
+        }
+    },
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/firewood-aged.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "agedfirewood",
+            "burnoverlay": "",
+            "burnTextures": {
+                "birch": [ "block/wood/debarked/aged" ],
+                "walnut-h": [ "block/wood/bark/aged-h" ]
+
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:blocktypes/resource/peatbrick.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "peat",
+            "domain": "game",
+            "fuelname": "peat",
+            "burnoverlay": "",
+            "firepitTextures": {
+                "peat": {
+                    "base": "block/soil/peat"
+                }
+            },
+            "burnTextures": {
+                "peat": {
+                    "base": "block/soil/peat",
+                    "overlays": [
+                        "block/coal/hot_peat"
+                    ]
+                }
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/drygrass.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "foliage",
+            "domain": "game",
+            "fuelname": "drygrass",
+            "burnoverlay": "",
+            "burnTextures": {
+                "foliage": [ "block/hay/bundle" ]
+
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/stick.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "stick",
+            "domain": "game",
+            "fuelname": "stick",
+            "burnoverlay": "",
+            "burnTextures": {
+                "birch": [ "block/wood/debarked/birch" ]
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:blocktypes/wood/woodtyped/log.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "log",
+            "domain": "game",
+            "fuelname": "log",
+            "burnoverlay": "",
+            "burnTextures": {
+                "baldcypress": [ "block/wood/treetrunk/{wood}" ],
+                "walnut-h": [ "block/wood/bark/{wood}-h" ]
+            }
+        }
+    },
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:blocktypes/wood/woodtyped/log-debarked.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "log",
+            "domain": "game",
+            "fuelname": "debarkedlog",
+            "burnoverlay": "",
+            "burnTextures": {
+                "baldcypress": [ "block/wood/treetrunk/{wood}" ],
+                "walnut-h": [ "block/wood/debarked/{wood}" ]
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/attributesByType",
+        "value": {
+            "*-bituminouscoal": {
+                "fancyfirepit": {
+                    "model": "coal",
+                    "domain": "game",
+                    "fuelname": "bituminouscoal",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "coal": [
+                            "block/coal/bituminous"
+                        ]
+                    }
+                }
+            },
+            "*-lignite": {
+                "fancyfirepit": {
+                    "model": "coal",
+                    "domain": "game",
+                    "fuelname": "lignite",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "coal": [
+                            "block/coal/lignite"
+                        ]
+                    }
+                }
+            },
+            "*-anthracite": {
+                "fancyfirepit": {
+                    "model": "coal",
+                    "domain": "game",
+                    "fuelname": "anthracite",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "coal": [
+                            "block/coal/anthracite"
+                        ]
+                    }
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/ore-ungraded.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "coal",
+            "domain": "game",
+            "fuelname": "charcoal",
+            "burnoverlay": "",
+            "burnTextures": {
+                "coal": [
+                    "block/coal/charcoal"
+                ]
+            }
+        },
+        "file": "game:itemtypes/resource/charcoal.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "coal",
+            "domain": "game",
+            "fuelname": "coke",
+            "burnoverlay": "",
+            "burnTextures": {
+                "coal": [
+                    "block/coal/coke"
+                ]
+            }
+        },
+        "file": "game:itemtypes/resource/coke.json",
+        "side": "Server"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/inner_seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/side"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/bark"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/bark",
+            "overlays": [ "game:block/coal/hot_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/inner_seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/side",
+            "overlays": [ "game:block/coal/hot_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/inner_preparedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/curable/side"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/preparedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/curable/bark"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/preparedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/curable/bark",
+            "overlays": [ "game:block/coal/hot_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/inner_preparedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/curable/side",
+            "overlays": [ "game:block/coal/hot_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

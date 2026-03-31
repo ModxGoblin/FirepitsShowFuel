@@ -1,0 +1,385 @@
+[
+    {
+        "op": "remove",
+        "path": "/textures",
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType",
+        "value": {
+            "*-lit": {
+                "ceramic": {
+                    "base": "block/clay/ceramic"
+                },
+                "tinder": {
+                    "base": "block/hay/normal-side"
+                },
+                "log": {
+                    "base": "block/wood/firepit/log"
+                },
+                "birch": {
+                    "base": "block/wood/debarked/birch",
+                    "overlays": [
+                        "block/coal/hot_wood"
+                    ]
+
+                },
+
+                "baldcypress": {
+                    "base": "block/wood/treetrunk/birch",
+                    "overlays": [
+                        "block/coal/hot_woodtrunk"
+                    ]
+                },
+
+
+
+                "agedfirewood": {
+                    "base": "block/wood/debarked/aged",
+                    "overlays": [
+                        "block/coal/hot_wood"
+                    ]
+                },
+                "agedfirewoodbark": {
+                    "base": "block/wood/bark/aged-h",
+                    "overlays": [
+                        "block/coal/hot_wood"
+                    ]
+                },
+                "charred": {
+                    "base": "block/wood/charred"
+                },
+                "ashes": {
+                    "base": "block/wood/firepit/ground"
+                },
+                "aged": {
+                    "base": "block/wood/debarked/aged"
+                },
+                "fire": {
+                    "base": "block/wood/firepit/fire"
+                },
+                "walnut-h": {
+                    "base": "block/wood/bark/walnut-h",
+                    "overlays": [
+                        "block/coal/hot_wood"
+                    ]
+                },
+                "ember": {
+                    "base": "block/coal/ember"
+                },
+                "coal": {
+                    "base": "block/coal/charcoal",
+                    "overlays": [
+                        "block/coal/hot_coal"
+                    ]
+                },
+                "bituminous": {
+                    "base": "block/coal/bituminous",
+                    "overlays": [
+                        "block/coal/hot_coal"
+                    ]
+
+                },
+                "charcoal": {
+                    "base": "block/coal/charcoal",
+                    "overlays": [
+                        "block/coal/hot_coal"
+                    ]
+                },
+                "lignite": {
+                    "base": "block/coal/lignite",
+                    "overlays": [
+                        "block/coal/hot_coal"
+                    ]
+                },
+                "anthracite": {
+                    "base": "block/coal/anthracite",
+                    "overlays": [
+                        "block/coal/hot_coal"
+                    ]
+                },
+                "coke": {
+                    "base": "block/coal/coke",
+                    "overlays": [
+                        "block/coal/hot_coal"
+                    ]
+                },
+                "cinder": {
+                    "base": "block/coal/cinder"
+                },
+                "peat": {
+                    "base": "block/coal/cinder"
+                },
+                //"peat": {
+                //    "base": "block/soil/peat",
+                //    "overlays": [
+                //        "block/coal/hot_peat"
+                //    ]
+                //},
+
+
+
+                "logtrunk_birch": {
+                    "base": "block/wood/treetrunk/birch",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_birch": {
+                    "base": "block/wood/bark/birch-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_birch": {
+                    "base": "block/wood/debarked/birch",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_acacia": {
+                    "base": "block/wood/treetrunk/acacia",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_acacia": {
+                    "base": "block/wood/bark/acacia-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_acacia": {
+                    "base": "block/wood/debarked/acacia",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_aged": {
+                    "base": "block/wood/treetrunk/aged",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_aged": {
+                    "base": "block/wood/bark/aged-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_aged": {
+                    "base": "block/wood/debarked/aged",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_baldcypress": {
+                    "base": "block/wood/treetrunk/baldcypress",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_baldcypress": {
+                    "base": "block/wood/bark/baldcypress-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_baldcypress": {
+                    "base": "block/wood/debarked/baldcypress",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_ebony": {
+                    "base": "block/wood/treetrunk/ebony",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_ebony": {
+                    "base": "block/wood/bark/ebony-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_ebony": {
+                    "base": "block/wood/debarked/ebony",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_kapok": {
+                    "base": "block/wood/treetrunk/kapok",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_kapok": {
+                    "base": "block/wood/bark/kapok-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_kapok": {
+                    "base": "block/wood/debarked/kapok",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_larch": {
+                    "base": "block/wood/treetrunk/larch",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_larch": {
+                    "base": "block/wood/bark/larch-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_larch": {
+                    "base": "block/wood/debarked/larch",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_maple": {
+                    "base": "block/wood/treetrunk/maple",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_maple": {
+                    "base": "block/wood/bark/maple-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_maple": {
+                    "base": "block/wood/debarked/maple",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_oak": {
+                    "base": "block/wood/treetrunk/oak",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_oak": {
+                    "base": "block/wood/bark/oak-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_oak": {
+                    "base": "block/wood/debarked/oak",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_pine": {
+                    "base": "block/wood/treetrunk/pine",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_pine": {
+                    "base": "block/wood/bark/pine-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_pine": {
+                    "base": "block/wood/debarked/pine",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_purpleheart": {
+                    "base": "block/wood/treetrunk/purpleheart",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_purpleheart": {
+                    "base": "block/wood/bark/purpleheart-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_purpleheart": {
+                    "base": "block/wood/debarked/purpleheart",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_redwood": {
+                    "base": "block/wood/treetrunk/redwood",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_redwood": {
+                    "base": "block/wood/bark/redwood-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_redwood": {
+                    "base": "block/wood/debarked/redwood",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+
+                "logtrunk_walnut": {
+                    "base": "block/wood/treetrunk/walnut",
+                    "overlays": [ "block/coal/hot_woodtrunk" ]
+                },
+                "logbark_walnut": {
+                    "base": "block/wood/bark/walnut-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "logdebarked_walnut": {
+                    "base": "block/wood/debarked/walnut",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "brick": {
+                    "base": "block/coal/cinder",
+                    "overlays": [ "block/coal/hot_briquette_wood" ]
+                },
+                "brickcoal": {
+                    "base": "block/coal/cinder",
+                    "overlays": [ "block/coal/hot_briquette_coal" ]
+                },
+                "foliage": {
+                    "base": "block/hay/bundle",
+                    "overlays": [ "block/coal/hot_foliage" ]
+                }
+            },
+            "*": {
+                "ceramic": {
+                    "base": "block/clay/ceramic"
+                },
+                "tinder": {
+                    "base": "block/hay/normal-side"
+                },
+                "log": {
+                    "base": "block/wood/firepit/log"
+                },
+                "birch": {
+                    "base": "block/wood/debarked/birch"
+                },
+                "baldcypress": {
+                    "base": "block/wood/treetrunk/baldcypress"
+
+                },
+                "charred": {
+                    "base": "block/wood/charred"
+                },
+                "ashes": {
+                    "base": "block/wood/firepit/ground"
+                },
+                "aged": {
+                    "base": "block/wood/debarked/aged"
+                },
+                "fire": {
+                    "base": "block/wood/firepit/fire"
+                },
+                "walnut-h": {
+                    "base": "block/wood/bark/walnut-h"
+                },
+                "ember": {
+                    "base": "block/coal/ember"
+                },
+                "coal": {
+                    "base": "block/coal/charcoal"
+                },
+                "agedfirewood": {
+                    "base": "block/wood/firewood/aged/bark"
+                },
+                "bituminous": {
+                    "base": "block/coal/bituminous"
+                },
+                "charcoal": {
+                    "base": "block/coal/charcoal"
+                },
+                "lignite": {
+                    "base": "block/coal/lignite"
+                },
+                "anthracite": {
+                    "base": "block/coal/anthracite"
+                },
+                "coke": {
+                    "base": "block/coal/anthracite"
+                },
+                "cinder": {
+                    "base": "block/coal/cinder"
+                },
+                //"peat": {
+                //    "base": "block/soil/peat"
+                //},
+                "brick": {
+                    "base": "block/coal/cinder"
+                },
+                "foliage": {
+                    "base": "block/hay/bundle"
+                }
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventory/general/0",
+        "value": "*",
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

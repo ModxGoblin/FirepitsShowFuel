@@ -1,0 +1,34 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "wildcrafttree:blocktypes/wood/woodtyped/log.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "log",
+            "domain": "wildcrafttree",
+            "fuelname": "log",
+            "burnoverlay": "",
+            "burnTextures": {
+                "baldcypress": [ "wildcrafttree:block/wood/treetrunk/{wood}" ],
+                "walnut-h": [ "wildcrafttree:block/wood/bark/{wood}-h" ]
+            }
+        }
+    },
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "wildcrafttree:blocktypes/wood/woodtyped/log-debarked.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "log",
+            "domain": "wildcrafttree",
+            "fuelname": "debarkedlog",
+            "burnoverlay": "",
+            "burnTextures": {
+                "baldcypress": [ "wildcrafttree:block/wood/treetrunk/{wood}" ],
+                "walnut-h": [ "block/wood/debarked/{wood}" ]
+            }
+        }
+    }
+]

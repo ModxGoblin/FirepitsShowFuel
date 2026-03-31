@@ -1,0 +1,227 @@
+using HarmonyLib;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Text;
+using System.Threading.Tasks;
+using Vintagestory.API;
+using Vintagestory.API.Client;
+using Vintagestory.API.Common;
+using Vintagestory.API.Common.Entities;
+using Vintagestory.API.Config;
+using Vintagestory.API.Datastructures;
+using Vintagestory.API.MathTools;
+using Vintagestory.API.Server;
+using Vintagestory.API.Util;
+using Vintagestory.Client.NoObf;
+using Vintagestory.GameContent;
+using Vintagestory.ServerMods;
+
+using API = Vintagestory.API;
+
+namespace FirepitsShowFuel.HarmonyPatches
+{
+
+    [HarmonyPatch]
+    public static class firepit_patch
+    {
+
+
+        [HarmonyPatch(typeof(BlockEntityFirepit), "OnTesselation")]
+        [HarmonyPrefix]
+        public static bool OnTesselation(BlockEntityFirepit __instance, ITerrainMeshPool mesher, ITesselatorAPI tesselator, ref bool __result)
+        {
+            if (__instance.Block == null || __instance.Block.Code.Path.Contains("construct")) __result = true;
+
+
+            ItemStack contentStack = __instance.inputStack == null ? __instance.outputStack : __instance.inputStack;
+            MeshData contentmesh = Call_getContentMesh(__instance, contentStack, tesselator);
+            if (contentmesh != null)
+            {
+                mesher.AddMeshData(contentmesh);
+            }
+
+
+            string fuelState = __instance.fuelStack == null ? "" : __instance.fuelStack.Collectible.Code.Path;
+            Console.WriteLine("[Firepit] contentStack is [" + fuelState + "]");
+
+
+            string burnState = __instance.Block.Variant["burnstate"];
+            //Console.WriteLine("[Firepit] burnState is1 [" + burnState + "]");
+ 
+            string contentState = __instance.CurrentModel.ToString().ToLowerInvariant();
+            if (burnState == "cold" && __instance.fuelSlot.Empty) burnState = "extinct";
+            if (burnState == null) __result = true;
+            //Console.WriteLine("[Firepit] burnState is2 [" + burnState + "]");
+
+            mesher.AddMeshData(getOrCreateMesh_n(__instance, burnState, contentState, fuelState));
+
+            __result = true;
+            return false;
+        }
+
+
+
+        static MeshData getOrCreateMesh_n(BlockEntityFirepit __instance, string burnstate, string contentstate, string fuelState)
+        {
+
+            //VVVVVV
+            Dictionary<string, MeshData> Meshes = ObjectCacheUtil.GetOrCreate(__instance.Api, "firepit-meshes", () => new Dictionary<string, MeshData>());
+
+            string fuelmesh = "";
+            string fuelname = "firewood";
+            bool coalver = false;
+            //if (fuelState == "ore-bituminouscoal" || fuelState == "ore-lignite" || fuelState == "ore-anthracite" || fuelState == "charcoal")
+            //{
+            //    fuelmesh = "-coal";
+            //    coalver = true;
+            //}
+
+            switch (fuelState)
+            {
+                case "ore-bituminouscoal":
+                    fuelmesh = "-coal";
+                    fuelname = "bituminous";
+                    coalver = true;
+                    break;
+
+                case "ore-lignite":
+                    fuelmesh = "-coal";
+                    fuelname = "lignite";
+                    coalver = true;
+                    break;
+
+                case "ore-anthracite":
+                    fuelmesh = "-coal";
+                    fuelname = "anthracite";
+                    coalver = true;
+                    break;
+
+                case "charcoal":
+                    fuelmesh = "-coal";
+                    fuelname = "charcoal";
+                    coalver = true;
+                    break;
+
+                case "coke":
+                    fuelmesh = "-coal";
+                    fuelname = "bituminous";
+                    coalver = true;
+                    break;
+
+                case "peatbrick":
+                    fuelmesh = "-peat";
+                    fuelname = "peat";
+                    coalver = true;
+                    break;
+
+                case "fseasonedfirewood":
+                    fuelmesh = "";
+                    fuelname = "seasonedfirewood";
+                    coalver = true;
+                    break;
+
+                case "agedfirewood":
+                    fuelmesh = "";
+                    fuelname = "agedfirewood";
+                    coalver = false;
+                    break;
+
+                case "":
+                    if (burnstate == "lit")
+                    {
+                        fuelmesh = "-cinder";
+                        fuelname = "cinder";
+                        coalver = true;
+                    }
+                    break;
+            }
+
+
+            string key = burnstate + "-" + contentstate;
+
+            if (!Meshes.TryGetValue(key, out MeshData meshdata))
+            {
+                Block block = __instance.Api.World.BlockAccessor.GetBlock(__instance.Pos);
+                if (block.BlockId == 0) return null;
+
+                MeshData[] meshes = new MeshData[17];
+                ITesselatorAPI mesher = ((ICoreClientAPI)__instance.Api).Tesselator;
+                //ITexPositionSource tex =
+                //public TextureAtlasPosition this[string textureCode]
+                //{
+                //    get
+                //    {
+                //        if (textureCode == "material") return tmpTextureSource[curMat];
+                //        if (textureCode == "material-deco") return tmpTextureSource["deco-" + curMat];
+                //        if (textureCode == "lining") return tmpTextureSource[curLining == "plain" ? curMat : curLining];
+                //        if (textureCode == "glass") return glassTextureSource["material"];
+                //        return tmpTextureSource[textureCode];
+                //    }
+                //}
+                Shape shape = API.Common.Shape.TryGet(__instance.Api, "shapes/block/wood/firepit/" + key + ".json");
+                //TexturePathUpdater texturePathUpdater;
+
+                ShapeTextureSource tex = new ShapeTextureSource(
+                    ((ICoreClientAPI)__instance.Api),
+                    shape,
+                    "firefixer",
+                    block.Textures,
+                    (p) => p.Replace("birch", "purpleheart")
+                );
+                
+                //Item glassBlock = ((ICoreClientAPI)__instance.Api).World.GetItem(new AssetLocation("ore-bituminouscoal"));
+                //ITexPositionSource btex = mesher.GetTextureSource(glassBlock);
+
+                mesher.TesselateShape("ding", API.Common.Shape.TryGet(__instance.Api, "shapes/block/wood/firepit/" + key +".json"), out meshdata, tex);
+
+
+                if (coalver)
+                {
+                    //mesher.TesselateShape(block, API.Common.Shape.TryGet(__instance.Api, "shapes/block/wood/firepit/"+ fuelname + "/" + key + fuelmesh + ".json"), out meshdata);
+                
+                
+                }
+                else
+                {
+                    //mesher.TesselateShape(block, API.Common.Shape.TryGet(__instance.Api, "shapes/block/wood/firepit/" + key + fuelmesh + ".json"), out meshdata);
+                }
+            }
+
+            return meshdata;
+        }
+
+
+
+        [HarmonyReversePatch]
+        [HarmonyPatch(typeof(BlockEntityFirepit), "getContentMesh")]
+        static MeshData Call_getContentMesh(BlockEntityFirepit __instance, ItemStack contentStack, ITesselatorAPI tesselator)
+        {
+            throw new NotImplementedException();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}

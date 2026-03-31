@@ -1,0 +1,35 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fseasonedfirewood:itemtypes/resource/firewood-seasoned.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "seasonedfirewood",
+            "burnoverlay": "",
+            "burnTextures": {
+                "birch": [ "fseasonedfirewood:block/wood/firewood/seasoned/side" ],
+                "walnut-h": [ "fseasonedfirewood:block/wood/firewood/seasoned/bark" ]
+            }
+        }
+    },
+
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fseasonedfirewood:itemtypes/resource/firewood-prepared.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "preparedfirewood",
+            "burnoverlay": "",
+            "burnTextures": {
+                "birch": [ "fseasonedfirewood:block/wood/firewood/curable/side" ],
+                "walnut-h": [ "fseasonedfirewood:block/wood/firewood/curable/bark" ]
+            }
+        }
+    }
+]

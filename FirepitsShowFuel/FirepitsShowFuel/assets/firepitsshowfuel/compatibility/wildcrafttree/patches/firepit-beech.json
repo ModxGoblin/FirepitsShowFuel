@@ -1,0 +1,346 @@
+[
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_beech","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/beech", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_beech", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/beech-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_beech", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/beech","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_beech","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/beech"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_beech", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/beech-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_beech", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/beech"} },
+
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_ash","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ash", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_ash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ash-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_ash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ash","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_ash","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ash"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_ash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ash-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_ash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ash"} },
+
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_azobe","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/azobe", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_azobe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/azobe-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_azobe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/azobe","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_azobe","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/azobe"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_azobe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/azobe-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_azobe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/azobe"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_banyan","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/banyan", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_banyan", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/banyan-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_banyan", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/banyan","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_banyan","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/banyan"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_banyan", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/banyan-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_banyan", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/banyan"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_bluemahoe","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/bluemahoe", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_bluemahoe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/bluemahoe-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_bluemahoe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/bluemahoe","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_bluemahoe","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/bluemahoe"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_bluemahoe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/bluemahoe-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_bluemahoe", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/bluemahoe"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_catalpa","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/catalpa", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_catalpa", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/catalpa-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_catalpa", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/catalpa","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_catalpa","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/catalpa"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_catalpa", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/catalpa-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_catalpa", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/catalpa"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_cedar","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/cedar", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_cedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/cedar-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_cedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/cedar","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_cedar","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/cedar"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_cedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/cedar-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_cedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/cedar"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_charred","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/charred", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_charred", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/charred-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_charred", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/charred","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_charred","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/charred"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_charred", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/charred-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_charred", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/charred"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_chlorociboria","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/chlorociboria", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_chlorociboria", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/chlorociboria-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_chlorociboria", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/chlorociboria","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_chlorociboria","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/chlorociboria"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_chlorociboria", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/chlorociboria-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_chlorociboria", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/chlorociboria"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_dalbergia","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/dalbergia", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_dalbergia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/dalbergia-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_dalbergia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/dalbergia","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_dalbergia","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/dalbergia"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_dalbergia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/dalbergia-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_dalbergia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/dalbergia"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_douglasfir","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/douglasfir", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_douglasfir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/douglasfir-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_douglasfir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/douglasfir","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_douglasfir","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/douglasfir"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_douglasfir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/douglasfir-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_douglasfir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/douglasfir"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_elm","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/elm", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_elm", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/elm-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_elm", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/elm","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_elm","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/elm"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_elm", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/elm-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_elm", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/elm"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_empresstree","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/empresstree", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_empresstree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/empresstree-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_empresstree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/empresstree","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_empresstree","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/empresstree"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_empresstree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/empresstree-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_empresstree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/empresstree"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_eucalyptus","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/eucalyptus", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_eucalyptus", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/eucalyptus-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_eucalyptus", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/eucalyptus","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_eucalyptus","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/eucalyptus"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_eucalyptus", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/eucalyptus-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_eucalyptus", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/eucalyptus"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_fir","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/fir", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_fir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/fir-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_fir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/fir","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_fir","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/fir"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_fir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/fir-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_fir", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/fir"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_ghostgum","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ghostgum", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_ghostgum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ghostgum-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_ghostgum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ghostgum","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_ghostgum","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ghostgum"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_ghostgum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ghostgum-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_ghostgum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ghostgum"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_ginkgo","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ginkgo", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_ginkgo", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ginkgo-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_ginkgo", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ginkgo","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_ginkgo","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ginkgo"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_ginkgo", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ginkgo-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_ginkgo", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ginkgo"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_guajacum","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/guajacum", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_guajacum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/guajacum-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_guajacum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/guajacum","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_guajacum","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/guajacum"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_guajacum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/guajacum-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_guajacum", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/guajacum"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_honeylocust","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/honeylocust", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_honeylocust", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/honeylocust-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_honeylocust", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/honeylocust","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_honeylocust","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/honeylocust"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_honeylocust", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/honeylocust-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_honeylocust", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/honeylocust"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_horsechestnut","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/horsechestnut", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_horsechestnut", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/horsechestnut-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_horsechestnut", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/horsechestnut","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_horsechestnut","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/horsechestnut"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_horsechestnut", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/horsechestnut-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_horsechestnut", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/horsechestnut"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_jacaranda","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/jacaranda", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_jacaranda", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/jacaranda-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_jacaranda", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/jacaranda","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_jacaranda","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/jacaranda"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_jacaranda", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/jacaranda-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_jacaranda", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/jacaranda"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_kauri","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/kauri", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_kauri", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/kauri-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_kauri", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/kauri","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_kauri","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/kauri"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_kauri", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/kauri-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_kauri", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/kauri"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_leadwood","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/leadwood", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_leadwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/leadwood-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_leadwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/leadwood","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_leadwood","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/leadwood"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_leadwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/leadwood-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_leadwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/leadwood"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_linden","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/linden", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_linden", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/linden-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_linden", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/linden","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_linden","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/linden"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_linden", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/linden-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_linden", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/linden"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_mahogany","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/mahogany", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_mahogany", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/mahogany-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_mahogany", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/mahogany","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_mahogany","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/mahogany"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_mahogany", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/mahogany-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_mahogany", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/mahogany"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_mangrove","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/mangrove", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_mangrove", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/mangrove-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_mangrove", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/mangrove","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_mangrove","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/mangrove"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_mangrove", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/mangrove-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_mangrove", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/mangrove"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_ohia","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ohia", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_ohia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ohia-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_ohia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ohia","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_ohia","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/ohia"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_ohia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/ohia-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_ohia", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/ohia"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_petrified","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/petrified", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_petrified", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/petrified-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_petrified", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/petrified","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_petrified","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/petrified"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_petrified", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/petrified-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_petrified", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/petrified"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_poplar","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/poplar", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_poplar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/poplar-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_poplar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/poplar","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_poplar","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/poplar"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_poplar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/poplar-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_poplar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/poplar"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_redcedar","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/redcedar", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_redcedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/redcedar-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_redcedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/redcedar","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_redcedar","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/redcedar"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_redcedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/redcedar-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_redcedar", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/redcedar"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_sal","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/sal", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_sal", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/sal-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_sal", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/sal","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_sal","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/sal"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_sal", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/sal-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_sal", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/sal"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_sapele","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/sapele", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_sapele", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/sapele-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_sapele", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/sapele","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_sapele","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/sapele"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_sapele", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/sapele-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_sapele", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/sapele"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_satinash","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/satinash", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_satinash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/satinash-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_satinash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/satinash","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_satinash","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/satinash"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_satinash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/satinash-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_satinash", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/satinash"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_saxaul","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/saxaul", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_saxaul", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/saxaul-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_saxaul", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/saxaul","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_saxaul","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/saxaul"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_saxaul", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/saxaul-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_saxaul", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/saxaul"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_spruce","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/spruce", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_spruce", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/spruce-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_spruce", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/spruce","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_spruce","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/spruce"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_spruce", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/spruce-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_spruce", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/spruce"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_spurgetree","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/spurgetree", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_spurgetree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/spurgetree-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_spurgetree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/spurgetree","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_spurgetree","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/spurgetree"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_spurgetree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/spurgetree-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_spurgetree", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/spurgetree"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_sycamore","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/sycamore", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_sycamore", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/sycamore-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_sycamore", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/sycamore","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_sycamore","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/sycamore"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_sycamore", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/sycamore-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_sycamore", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/sycamore"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_tamanu","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/tamanu", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_tamanu", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/tamanu-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_tamanu", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/tamanu","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_tamanu","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/tamanu"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_tamanu", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/tamanu-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_tamanu", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/tamanu"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_tigerwood","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/tigerwood", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_tigerwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/tigerwood-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_tigerwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/tigerwood","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_tigerwood","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/tigerwood"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_tigerwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/tigerwood-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_tigerwood", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/tigerwood"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_tuja","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/tuja", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_tuja", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/tuja-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_tuja", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/tuja","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_tuja","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/tuja"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_tuja", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/tuja-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_tuja", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/tuja"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_umnini","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/umnini", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_umnini", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/umnini-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_umnini", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/umnini","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_umnini","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/umnini"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_umnini", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/umnini-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_umnini", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/umnini"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_willow","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/willow", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_willow", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/willow-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_willow", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/willow","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_willow","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/willow"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_willow", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/willow-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_willow", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/willow"} },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logtrunk_yew","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/yew", "overlays": [ "game:block/coal/hot_woodtrunk" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logbark_yew", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/yew-h","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*-lit/logdebarked_yew", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/yew","overlays": [ "game:block/coal/hot_wood" ] } },
+    { "op": "addmerge", "path": "/texturesByType/*/logtrunk_yew","file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/treetrunk/yew"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logbark_yew", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "wildcrafttree:block/wood/bark/yew-h"} },
+    { "op": "addmerge", "path": "/texturesByType/*/logdebarked_yew", "file": "game:blocktypes/wood/firepit.json", "side": "Server", "value": { "base": "game:block/wood/debarked/yew"} }
+]

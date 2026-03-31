@@ -1,0 +1,65 @@
+[
+    {
+        "op": "add",
+        "path": "/attributesByType",
+        "value": {
+            "*-sawdust": {
+                "fancyfirepit": {
+                    "model": "briquette",
+                    "domain": "game",
+                    "fuelname": "briquette-sawdust",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "brick": [ "fuelbriquettes:block/sawdust-brick1", "block/coal/hot_briquette_wood" ]
+                    }
+                }
+            },
+            "*-peat": {
+                "fancyfirepit": {
+                    "model": "briquette",
+                    "domain": "game",
+                    "fuelname": "briquette-peat",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "brick": [ "fuelbriquettes:block/peat-brick1", "block/coal/hot_briquette_wood" ]
+                    }
+                }
+            },
+            "*-sawdust-soaked": {
+                "fancyfirepit": {
+                    "model": "briquette",
+                    "domain": "game",
+                    "fuelname": "briquette-sawdust-soaked",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "brick": [ "fuelbriquettes:block/sawdust-soaked-brick1", "block/coal/hot_briquette_wood" ]
+                    }
+                }
+            },
+            "*-peat-soaked": {
+                "fancyfirepit": {
+                    "model": "briquette",
+                    "domain": "game",
+                    "fuelname": "briquette-peat-soaked",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "brick": [ "fuelbriquettes:block/peat-soaked-brick1", "block/coal/hot_briquette_wood" ]
+                    }
+                }
+            },
+            "*-charcoal": {
+                "fancyfirepit": {
+                    "model": "briquette",
+                    "domain": "game",
+                    "fuelname": "briquette-charcoal",
+                    "burnoverlay": "",
+                    "burnTextures": {
+                        "brick": [ "fuelbriquettes:block/charcoal-brick1", "block/coal/hot_briquette_coal" ]
+                    }
+                }
+            }
+        },
+        "file": "fuelbriquettes:itemtypes/briquettes.json",
+        "side": "Server"
+    }
+]

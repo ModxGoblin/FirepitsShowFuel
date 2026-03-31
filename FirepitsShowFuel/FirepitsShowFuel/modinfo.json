@@ -1,0 +1,13 @@
+{
+    "type": "Code",
+    "modid": "firepitsshowfuel",
+    "name": "FirepitsShowFuel",
+    "authors": [
+        "Chiliking"
+    ],
+    "description": "Firepits now display the fuel they're burning.",
+    "version": "1.4.0",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}
