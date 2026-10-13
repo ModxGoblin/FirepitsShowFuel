@@ -6,8 +6,8 @@
         "Chiliking"
     ],
     "description": "Firepits now display the fuel they're burning.",
-    "version": "2.0.0-dev.1",
+    "version": "2.0.0-dev.6",
     "dependencies": {
-        "game": "1.22.0-rc.6"
+        "game": "1.22.3"
     }
 }

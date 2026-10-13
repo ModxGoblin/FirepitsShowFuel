@@ -102,6 +102,7 @@ namespace FirepitsShowFuel.HarmonyPatches
             //Console.WriteLine("[Firepit]-----------------------------------");
             //Console.WriteLine("[Firepit] A [\n" + attr.ToString() + "\n]");
 
+
             if (fuelState == "" && burnState == "lit")
             {
                 return new FancyFirepitAttributes(

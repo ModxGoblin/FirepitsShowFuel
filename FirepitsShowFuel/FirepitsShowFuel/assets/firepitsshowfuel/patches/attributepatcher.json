@@ -115,6 +115,23 @@
             }
         }
     },
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:blocktypes/wood/woodtyped/planks.json",
+        "path": "/attributes",
+        "value": {
+            "fancyfirepit": {
+                "model": "plank",
+                "domain": "game",
+                "fuelname": "plank",
+                "burnoverlay": "",
+                "burnTextures": {
+                    "plank": [ "block/wood/planks/{wood}1" ]
+                }
+            }
+        }
+    },
 
     {
         "op": "add",

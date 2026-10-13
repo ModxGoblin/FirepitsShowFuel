@@ -297,6 +297,10 @@
                 "foliage": {
                     "base": "block/hay/bundle",
                     "overlays": [ "block/coal/hot_foliage" ]
+                },
+                "plank-oak": {
+                    "base": "block/wood/planks/oak1",
+                    "overlays": [ "block/coal/hot_foliage" ]
                 }
             },
             "*": {
