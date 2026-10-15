@@ -1,0 +1,57 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "fseasonedfirewood:itemtypes/resource/firewood-seasoned.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "seasonedfirewood",
+            "burnTextures": {
+                "birch": [ "fseasonedfirewood:block/wood/firewood/seasoned/side" ],
+                "walnut-h": [ "fseasonedfirewood:block/wood/firewood/seasoned/bark" ]
+            }
+        }
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/inner_seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/side"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/bark"
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/bark",
+            "overlays": [ "game:block/coal/hot_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit/inner_seasonedfirewood",
+        "value": {
+            "base": "fseasonedfirewood:block/wood/firewood/seasoned/side",
+            "overlays": [ "game:block/coal/hot_wood" ]
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

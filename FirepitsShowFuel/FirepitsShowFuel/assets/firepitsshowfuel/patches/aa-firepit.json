@@ -1,0 +1,151 @@
+[
+    {
+        "op": "remove",
+        "path": "/textures",
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType",
+        "value": {
+            "*-lit": {
+                "ceramic": {
+                    "base": "block/clay/ceramic"
+                },
+                "tinder": {
+                    "base": "block/hay/normal-side"
+                },
+                "log": {
+                    "base": "block/wood/firepit/log"
+                },
+                "birch": {
+                    "base": "block/wood/debarked/birch",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "charred": {
+                    "base": "block/wood/charred"
+                },
+                "ashes": {
+                    "base": "block/wood/firepit/ground"
+                },
+                "aged": {
+                    "base": "block/wood/debarked/aged"
+                },
+                "fire": {
+                    "base": "block/wood/firepit/fire"
+                },
+                "walnut-h": {
+                    "base": "block/wood/bark/walnut-h",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "baldcypress": {
+                    "base": "block/wood/debarked/birch",
+                    "overlays": [ "block/coal/hot_wood" ]
+                },
+                "ember": {
+                    "base": "block/coal/ember"
+                },
+                "cinder": {
+                    "base": "block/coal/cinder"
+                },
+
+
+                "coal": {
+                    "base": "block/coal/charcoal",
+                    "overlays": [
+                        "block/coal/hot_coal"
+                    ]
+                },
+                "peat": {
+                    "base": "block/soil/peat",
+                    "overlays": [
+                        "block/coal/hot_peat"
+                    ]
+                },
+                "brick": {
+                    "base": "block/coal/cinder",
+                    "overlays": [ "block/coal/hot_briquette_wood" ]
+                },
+                "foliage": {
+                    "base": "block/hay/bundle",
+                    "overlays": [ "block/coal/hot_foliage" ]
+                },
+                "plank": {
+                    "base": "block/wood/planks/oak1",
+                    "overlays": [ "block/coal/hot_foliage" ]
+                },
+                "stick": {
+                    "base": "block/wood/debarked/birch",
+                    "overlays": [
+                        "block/coal/hot_wood"
+                    ]
+                }
+            },
+            "*": {
+                "ceramic": {
+                    "base": "block/clay/ceramic"
+                },
+                "tinder": {
+                    "base": "block/hay/normal-side"
+                },
+                "log": {
+                    "base": "block/wood/firepit/log"
+                },
+
+                "baldcypress": {
+                    "base": "block/wood/treetrunk/baldcypress"
+
+                },
+                "charred": {
+                    "base": "block/wood/charred"
+                },
+                "ashes": {
+                    "base": "block/wood/firepit/ground"
+                },
+                "aged": {
+                    "base": "block/wood/debarked/aged"
+                },
+                "fire": {
+                    "base": "block/wood/firepit/fire"
+                },
+                "walnut-h": {
+                    "base": "block/wood/bark/walnut-h"
+                },
+                "ember": {
+                    "base": "block/coal/ember"
+                },
+
+                "coal": {
+                    "base": "block/coal/charcoal"
+                },
+                "peat": {
+                    "base": "block/soil/peat"
+                },
+                "brick": {
+                    "base": "block/coal/cinder"
+                },
+                "foliage": {
+                    "base": "block/hay/bundle"
+                },
+                "plank": {
+                    "base": "block/wood/planks/oak1"
+                },
+                "stick": {
+                    "base": "block/wood/debarked/birch"
+                }
+
+
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventory/general/0",
+        "value": "*",
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

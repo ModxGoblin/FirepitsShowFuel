@@ -1,0 +1,44 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:blocktypes/soil/peatbrick.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "peat",
+            "domain": "game",
+            "fuelname": "peat",
+            "burnTextures": {
+                "peat": [ "block/soil/peat" ]
+            }
+        }
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": {
+            "peat": {
+                "base": "block/soil/peat"
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit",
+        "value": {
+            "peat": {
+                "base": "block/soil/peat",
+                "overlays": [
+                    "block/coal/hot_peat"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

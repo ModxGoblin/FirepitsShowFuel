@@ -1,0 +1,42 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributesByType",
+        "value": {
+            "*-bituminouscoal": {
+                "fancyfirepit": {
+                    "model": "coal",
+                    "domain": "game",
+                    "fuelname": "bituminouscoal",
+                    "burnTextures": {
+                        "coal": [
+                            "block/coal/bituminous"
+                        ]
+                    }
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/ore-ungraded.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": { "bituminouscoal": { "base": "game:block/coal/bituminous" } },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit",
+        "value": {
+            "bituminouscoal": {
+                "base": "game:block/coal/bituminous",
+                "overlays": [ "game:block/coal/hot_coal" ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

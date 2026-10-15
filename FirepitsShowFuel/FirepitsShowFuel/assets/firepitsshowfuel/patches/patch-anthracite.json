@@ -1,0 +1,43 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributesByType",
+        "value": {
+            "*-anthracite": {
+                "fancyfirepit": {
+                    "model": "coal",
+                    "domain": "game",
+                    "fuelname": "anthracite",
+                    "burnTextures": {
+                        "coal": [
+                            "block/coal/anthracite"
+                        ]
+                    }
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/ore-ungraded.json",
+        "side": "Server"
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": { "anthracite": { "base": "game:block/coal/anthracite" } },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit",
+        "value": {
+            "anthracite": {
+                "base": "game:block/coal/anthracite",
+                "overlays": [ "game:block/coal/hot_coal" ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

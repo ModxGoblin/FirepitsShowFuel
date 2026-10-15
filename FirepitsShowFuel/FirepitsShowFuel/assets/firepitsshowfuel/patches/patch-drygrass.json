@@ -1,0 +1,17 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/drygrass.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "foliage",
+            "domain": "game",
+            "fuelname": "drygrass",
+            "burnTextures": {
+                "foliage": [ "block/hay/bundle" ]
+
+            }
+        }
+    }
+]

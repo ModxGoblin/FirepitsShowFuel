@@ -58,6 +58,7 @@
 
 <ItemGroup>
   <Folder Include="assets\firepitsshowfuel\unused\" />
+  <Folder Include="assets\game\patches\" />
 </ItemGroup>
 
 </Project>

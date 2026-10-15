@@ -1,0 +1,33 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "firewood",
+            "burnTextures": {
+                "birch": [ "block/wood/debarked/birch" ],
+                "walnut-h": [ "block/wood/bark/walnut-h" ]
+
+            }
+        },
+        "file": "game:itemtypes/resource/firewood.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit",
+        "value": {
+            "walnut-h": {
+                "base": "block/wood/bark/walnut-h",
+                "overlays": [
+                    "block/coal/hot_wood"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

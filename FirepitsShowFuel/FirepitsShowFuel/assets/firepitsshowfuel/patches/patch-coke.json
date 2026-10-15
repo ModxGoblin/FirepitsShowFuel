@@ -1,0 +1,20 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "coal",
+            "domain": "game",
+            "fuelname": "coke",
+            "burnTextures": {
+                "coal": [ "block/coal/coke" ]
+            }
+        },
+        "file": "game:itemtypes/resource/coke.json",
+        "side": "Server"
+    },
+
+
+    { "op": "addmerge", "path": "/texturesByType/*", "value": { "coal": { "base": "game:block/coal/coke" } }, "file": "game:blocktypes/wood/firepit.json", "side": "Server" },
+    { "op": "addmerge", "path": "/texturesByType/*-lit", "value": { "coal": { "base": "game:block/coal/coke", "overlays": [ "game:block/coal/hot_coal" ] } }, "file": "game:blocktypes/wood/firepit.json", "side": "Server" }
+]

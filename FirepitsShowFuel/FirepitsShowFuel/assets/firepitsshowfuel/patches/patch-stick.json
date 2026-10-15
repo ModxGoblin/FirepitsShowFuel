@@ -1,0 +1,16 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/stick.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "stick",
+            "domain": "game",
+            "fuelname": "stick",
+            "burnTextures": {
+                "stick": [ "block/wood/debarked/birch" ]
+            }
+        }
+    }
+]

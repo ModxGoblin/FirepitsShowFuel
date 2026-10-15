@@ -1,0 +1,52 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/firewood-aged.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "firewood",
+            "domain": "game",
+            "fuelname": "agedfirewood",
+            "burnTextures": {
+                "birch": [ "block/wood/debarked/aged" ],
+                "walnut-h": [ "block/wood/bark/aged-h" ]
+
+            }
+        }
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": {
+            "agedfirewood": {
+                "base": "block/wood/firewood/aged/bark"
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit",
+        "value": {
+            "agedfirewood": {
+                "base": "block/wood/debarked/aged",
+                "overlays": [
+                    "block/coal/hot_wood"
+                ]
+            },
+            "agedfirewoodbark": {
+                "base": "block/wood/bark/aged-h",
+                "overlays": [
+                    "block/coal/hot_wood"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]

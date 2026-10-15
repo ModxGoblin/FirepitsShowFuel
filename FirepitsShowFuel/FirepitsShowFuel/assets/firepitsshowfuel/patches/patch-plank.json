@@ -1,0 +1,103 @@
+[
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:blocktypes/wood/woodtyped/planks.json",
+        "path": "/attributes",
+        "value": {
+            "fancyfirepit": {
+                "model": "plank",
+                "domain": "game",
+                "fuelname": "plank",
+                "burnTextures": {
+                    "plank": [ "block/wood/planks/{wood}1" ]
+                }
+            }
+        }
+    },
+    {
+        "op": "add",
+        "side": "Server",
+        "file": "game:itemtypes/resource/plank.json",
+        "path": "/attributes/fancyfirepit",
+        "value": {
+            "model": "plank",
+            "domain": "game",
+            "fuelname": "plank",
+            "burnTextures": {
+                "plank": [ "block/wood/planks/{wood}1" ]
+            }
+        }
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit",
+        "value": {
+            "plank_birch": {
+                "base": "block/wood/planks/birch1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+
+            "plank_acacia": {
+                "base": "block/wood/planks/acacia1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+
+            "plank_aged": {
+                "base": "block/wood/planks/aged1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+
+            "plank_baldcypress": {
+                "base": "block/wood/planks/baldcypress1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+
+            "plank_ebony": {
+                "base": "block/wood/planks/ebony1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+            "plank_kapok": {
+                "base": "block/wood/planks/kapok1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+            "plank_larch": {
+                "base": "block/wood/planks/larch1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+
+            "plank_maple": {
+                "base": "block/wood/planks/maple1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+            "plank_oak": {
+                "base": "block/wood/planks/oak1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+
+            "plank_pine": {
+                "base": "block/wood/planks/pine1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+
+            "plank_purpleheart": {
+                "base": "block/wood/planks/purpleheart1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+            "plank_redwood": {
+                "base": "block/wood/planks/redwood1",
+                "overlays": [ "block/coal/heated_wood" ]
+            },
+            "plank_walnut": {
+                "base": "block/wood/planks/walnut1",
+                "overlays": [ "block/coal/heated_wood" ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+
+
+]

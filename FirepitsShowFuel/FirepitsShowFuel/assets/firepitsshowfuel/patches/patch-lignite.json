@@ -1,0 +1,43 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributesByType",
+        "value": {
+            "*-lignite": {
+                "fancyfirepit": {
+                    "model": "coal",
+                    "domain": "game",
+                    "fuelname": "lignite",
+                    "burnTextures": {
+                        "coal": [
+                            "block/coal/lignite"
+                        ]
+                    }
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/ore-ungraded.json",
+        "side": "Server"
+    },
+
+
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": { "lignite": { "base": "game:block/coal/lignite" } },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-lit",
+        "value": {
+            "lignite": {
+                "base": "game:block/coal/lignite",
+                "overlays": [ "game:block/coal/hot_coal" ]
+            }
+        },
+        "file": "game:blocktypes/wood/firepit.json",
+        "side": "Server"
+    }
+]
